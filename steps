@@ -1,0 +1,25 @@
+warehouse-backend/
+│
+├── config/
+│   └── db.js               ← הגדרות חיבור למסד הנתונים
+│
+├── controllers/
+│   └── productController.js
+│   └── movementController.js
+│   └── userController.js
+│
+├── models/
+│   └── productModel.js
+│   └── movementModel.js
+│   └── userModel.js
+│
+├── routes/
+│   └── productRoutes.js
+│   └── movementRoutes.js
+│   └── userRoutes.js
+│
+├── middleware/
+│   └── auth.js            ← אימות עם JWT (שלב מאוחר יותר)
+│
+├── server.js              ← קובץ הפעלה ראשי
+└── .env                   ← משתני סביבה (סיסמאות, פורטים וכו')
